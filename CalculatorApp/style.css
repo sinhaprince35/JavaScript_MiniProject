@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://cdn.wallpapersafari.com/12/86/JURz9m.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 41em;
+}
+
+.calculator {
+    width: 20em;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#result {
+    padding: 2em;
+    width: 82%;
+    border: 2px solid #51f8c3;
+    border-radius: 4px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+.button {
+    padding: 2em;
+    border: 2px solid #51f8c3;
+    /* Outline border */
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: #51f8c3;
+}
+
+@media (max-width: 600px) {
+
+    /* CSS rules here */
+    body {
+        height: 80em;
+    }
+
+    .calculator {
+        margin-right: 5em;
+    }
+
+
+
+}
+
+/* Styles for screens between 600px and 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+    /* CSS rules here */
+
+}
