@@ -1,7 +1,129 @@
-*{
+* {
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.main{
-    margin:
+
+body {
+    background-color: rgb(233, 233, 233);
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    text-align: center;
+    border: .2em solid;
+    border-radius: 2%;
+    margin: 2% 30%;
+    padding-bottom: 30em;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    padding-bottom: 1em;
+    color: white;
+    border: 0.2em solid;
+    border-radius: 2%;
+    margin: 0.5em 10em;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+hr {
+    border: .1em solid;
+    margin-bottom: 2em;
+    border-color: ;
+}
+
+.inputField {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#inputTask {
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 0.3em;
+
+}
+
+.btn {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.btnAll {
+    font-size: 15px;
+    padding: 0.5em 1.5em;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 5%;
+}
+
+.btnAll:hover {
+    background-color: rgb(20, 0, 239);
+    color: white;
+}
+#displayList{
+    margin-top: 1em;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    /* list-style: none; */
+}
+.task-item {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+
+  .task-item:hover {
+    background-color: #e0e0e0;
+  }
+.delete-button {
+    background-color: #ff5555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+/* Styles for mobile devices */
+@media screen and (max-width: 767px) {
+
+    /* CSS styles for mobile devices */
+    .main {
+        border: .1.5em solid;
+        margin: 4% 10%;
+        padding-bottom: 25em;
+        border-radius: 1%;
+    }
+
+    .container {
+        padding-bottom: 1em;
+        border: 0.2em solid;
+        border-radius: 2%;
+        margin: 0.5em 0.5em;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* CSS styles for tablet devices */
+    .container {
+        padding-bottom: 1em;
+        border: 0.2em solid;
+        border-radius: 2%;
+        margin: 0.5em 2em;
+
+    }
+
 }
