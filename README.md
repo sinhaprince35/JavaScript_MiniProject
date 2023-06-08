@@ -5,5 +5,6 @@ This repository contains a collection of mini projects implemented using JavaScr
   <li><b>Todo Link</b>:-https://to-do-list-javascript1.netlify.app/</li>
   <li><b>Calculator</b>:-https://calculator-javascript-2.netlify.app/</li>
   <li><b>Timer App</b>:-https://timer-app-1.netlify.app/</li>
+   <li><b>Weather App</b>:-https://weather-app-javascript-1.netlify.app/</li>
 </ul>
 
