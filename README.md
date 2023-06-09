@@ -6,5 +6,6 @@ This repository contains a collection of mini projects implemented using JavaScr
   <li><b>Calculator</b>:-https://calculator-javascript-2.netlify.app/</li>
   <li><b>Timer App</b>:-https://timer-app-1.netlify.app/</li>
    <li><b>Weather App</b>:-https://weather-app-javascript-1.netlify.app/</li>
+  <li><b>Meal Finder App</b>:-https://meal-finder-app-3.netlify.app/</li>
 </ul>
 
