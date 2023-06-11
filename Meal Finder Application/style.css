@@ -40,6 +40,26 @@ body {
     gap: 20px;
 }
 
+button {
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    background-color:  #22c22d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+button:active {
+    background-color: #cc6600;
+}
+
+
 .mealItem {
     display: flex;
     flex-direction: column;
